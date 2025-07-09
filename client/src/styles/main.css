@@ -1,0 +1,56 @@
+/*
+    Este archivo establece estilos globales y base para toda la aplicación.
+    Asume que Bootstrap está enlazado en index.html.
+    Define la fuente predeterminada (Inter, si está disponible, o sans-serif genérica),
+    un color de texto oscuro, un color de fondo claro y márgenes cero.
+*/
+
+/*
+    Define la fuente para el cuerpo del documento.
+    'Inter' es una fuente moderna y legible. Si no la tienes importada (ej. desde Google Fonts),
+    el navegador usará una fuente genérica sans-serif.
+*/
+body {
+    font-family: 'Inter', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    color: #343a40; /* Color de texto oscuro, típico de Bootstrap */
+    background-color: #f8f9fa; /* Fondo claro, típico de Bootstrap */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    -webkit-font-smoothing: antialiased; /* Mejoras de renderizado de fuentes para Webkit */
+    -moz-osx-font-smoothing: grayscale; /* Mejoras de renderizado de fuentes para Firefox */
+}
+
+/*
+    Estilos para el elemento raíz de React.
+    Asegura que el elemento #root o donde se monte tu aplicación ocupe el 100%
+    del alto de la ventana del navegador.
+*/
+#root {
+    min-height: 100vh; /* Ocupa al menos el 100% del alto de la ventana */
+    display: flex; /* Utiliza flexbox para que el App.js pueda manejar el layout */
+    flex-direction: column; /* Coloca los elementos hijos en columna (NavBar, Main, Footer) */
+}
+
+/*
+    Estilos generales para enlaces.
+    Elimina el subrayado por defecto y asegura que el color sea el heredado.
+*/
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Hereda el color del texto de su padre */
+}
+
+/*
+    Estilos para los focos de los elementos interactivos (botones, inputs, etc.).
+    Proporciona un contorno más sutil y visualmente agradable al enfocar un elemento,
+    en lugar del contorno predeterminado del navegador. Se basa en colores de Bootstrap.
+*/
+*:focus {
+    outline: none; /* Elimina el contorno de foco predeterminado */
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); /* Sombra de foco azul de Bootstrap */
+    border-radius: 0.375rem; /* Bordes ligeramente redondeados */
+}
+
+/* Ajustes para formularios de Bootstrap para asegurar bordes redondeados y consistencia */
+.form-control, .btn, .card {
+    border-radius: 0.375rem; /* Aplica bordes redondeados a elementos comunes de Bootstrap */
+}

@@ -1,0 +1,39 @@
+    /* Estilos para el footer */
+footer {
+    background-color: #1d1919; /* Color azul oscuro */
+    color: white;
+}
+
+.hover-text-white:hover {
+    opacity: 1 !important;
+    text-decoration: underline;
+    transition: opacity 0.3s ease;
+}
+
+/* Efecto hover para iconos */
+footer a:hover svg {
+    transform: scale(1.1);
+    opacity: 1 !important;
+    transition: all 0.3s ease;
+}
+
+/* Mejora de espaciado para móviles */
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+    
+    .footer-links {
+        justify-content: center !important;
+    }
+    
+    .footer-social {
+        justify-content: center !important;
+        margin-top: 1rem;
+    }
+}
+
+/* Estilos para los enlaces */
+footer a {
+    transition: all 0.3s ease;
+}
