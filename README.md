@@ -34,26 +34,31 @@
 ## 🚀 Tecnologías Utilizadas
 
 ### Frontend
-* **React.js** (con Vite)
-* **React Router DOM**
-* **Axios**
-* **Context API** & **Custom Hooks**
-* **CSS / SCSS** (según tu configuración en `src/styles`)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)  
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)  
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Context API](https://img.shields.io/badge/Context_API-000000?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ### Backend
-* **Node.js**
-* **Express.js**
-* **PostgreSQL**
-* **Sequelize ORM**
-* **Passport.js** (Passport-Google-OAuth20, Passport-GitHub2, Passport-JWT)
-* **jsonwebtoken** (JWT)
-* **bcrypt** (para hashing de contraseñas)
-* **dotenv**
-* **cors**
-* **express-session**
-* **multer** (para subida de archivos)
-* **Swagger-UI-Express** & **Swagger-Jsdoc** (para documentación API)
-* **Puppeteer** / **Cheerio** (en `scrapingService.js`)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)  
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcrypt-000000?style=for-the-badge&logo=bcrypt&logoColor=white)
+
+### Autenticación
+![Passport](https://img.shields.io/badge/Passport-34E27A?style=for-the-badge&logo=passport&logoColor=white)
+![Google OAuth](https://img.shields.io/badge/Google_OAuth-4285F4?style=for-the-badge&logo=google&logoColor=white)  
+![GitHub OAuth](https://img.shields.io/badge/GitHub_OAuth-181717?style=for-the-badge&logo=github&logoColor=white)
+
+### Herramientas
+![Multer](https://img.shields.io/badge/Multer-00C7B7?style=for-the-badge&logo=multipart&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)  
+![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white)
+![Cheerio](https://img.shields.io/badge/Cheerio-000000?style=for-the-badge)
 
 ## 📂 Estructura del Proyecto
 ```bash
